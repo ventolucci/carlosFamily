@@ -1,0 +1,98 @@
+header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/pattern.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about .card {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/family.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 400px;
+  padding-bottom: 30px;
+}
+
+#skills {
+  background: silver;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#skills .m6 {
+  padding-top: 20px;
+}
+
+#follow {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/pattern.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#follow .row {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://media.giphy.com/media/y3Kmtq0JJWgqk/giphy.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  overflow: auto;
+}
+
+#projects {
+  background: silver;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#projects .card {
+  width: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hide {
+  transform: scale(0);
+  width: 0;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+#projects .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+#projects .section-projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+footer {
+  background: url(../img/pattern.png);
+}
