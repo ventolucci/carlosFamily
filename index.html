@@ -1,356 +1,932 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- Import Google Icon Font -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- Import materialize.css -->
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/materialize.min.css"
-      media="screen,projection"
-    />
+
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
-    <link type="text/css" rel="stylesheet" href="css/main.css" />
 
-    <!-- Let browser know website is optimized for mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carlos Family</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Kalam"
+      rel="stylesheet"
+    />
+
+    <!-- Font Anwsome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>Denis Rodriguez-Ramos</title>
   </head>
 
-  <body id="home" class="scrollspy">
-    <header class="main-header">
-      <nav class="transparent nav-wrapper z-depth-0">
-        <div class="nav-wrapper">
-          <a
-            href="#"
-            class="button-collapse show-on-large"
-            data-activates="mobile-nav"
-            ><i class="material-icons">menu</i></a
-          >
-          <a href="#home" class="brand-logo"
-            >Carlos <span class="hide-on-med-and-down">Rodriguez</span></a
-          >
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#home">About</a></li>
-            <li><a href="#projects">Family</a></li>
-          </ul>
-        </div>
-      </nav>
+  <header id="header">
 
-      <!-- Side nav -->
-      <ul id="mobile-nav" class="side-nav">
-        <li>
-          <div class="user-view">
-            <div class="background"><img src="img/pattern.png" alt="" /></div>
-            <a href="#"> <img src="img/img5.jpg" alt="" class="circle" /> </a>
-            <a href="#">
-              <span class="name white-text">Carlos Rodriguez</span>
-            </a>
-            <a href="#"> <span class="phone white-text">760 668-3247</span> </a>
-            <a href="#">
-              <span class="email white-text">charliestrager69@hotmail.com</span>
-            </a>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+      <a href="#" class="navbar-brand px-2 py-0 text-uppercase"
+        >Denis Ramos</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#myNavbar"
+      >
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto nav-active">
+          <li class="nav-item">
+            <a href="#header" class="nav-link m-2 text-capitalize">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link m-2 text-capitalize">about me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link m-2 text-capitalize">skills</a>
+          </li>
+          <li class="nav-item">
+              <a href="#projects" class="nav-link m-2 text-capitalize">projects</a>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-between aling-items-baseline">
+          <div class="top-icons">
+            <a href="https://github.com/ventolucci" target="_blank" class="mx-2"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/denis-rodriguez-ramos-5742b815b/" target="_blank" class="mx-2"><i class="fab fa-linkedin"></i></a>
           </div>
-        </li>
-        <li>
-          <a href="#home"><i class="fas fa-home"></i> Home</a>
-        </li>
+      </div>
+    </nav>
+    <!-- End of Nabar -->
 
-        <li>
-          <a href="#projects"><i class="fas fa-briefcase"></i> Family</a>
-        </li>
-        <li><div class="divider"></div></li>
-      </ul>
+    <!-- Slider -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col no-padding">
+          <div id="demo-slider" class="carousel slide" data-ride="carousel">
+            <!-- Slider Show -->
+            <div class="carousel-inner">
+                <!-- Slider Item -->
+              <div class="carousel-item item-1 active">
+                <div class="carousel-caption mb-5 text-right">
+                  <h1 class="display-3 text-capitalize mb-2 text-light">i am developer</h1>
+                  <a href="img/denisresume.pdf" class="btn btn-lg mb-5 text-uppercase banner-btn" download>my resume</a>
+                </div>
+              </div>
+              <!-- End of Slider Item -->
+                 <!-- Slider Item -->
+                 <div class="carousel-item item-2">
+                    <div class="carousel-caption mb-5 text-center">
+                      <h1 class="display-3 text-capitalize mb-2 text-light">i am designer</h1>
+                      <a href="img/denisresume.pdf" class="btn btn-lg mb-5 text-uppercase banner-btn" download>my resume</a>
+                    </div>
+                  </div>
+                  <!-- End of Slider Item -->
+                   <!-- Slider Item -->
+                 <div class="carousel-item item-3">
+                    <div class="carousel-caption mb-5 text-left">
+                      <h1 class="display-3 text-capitalize mb-2 text-light">i am artist</h1>
+                      <a href="img/denisresume.pdf" class="btn btn-lg mb-5 text-uppercase banner-btn" download>my resume</a>
+                    </div>
+                  </div>
+                  <!-- End of Slider Item -->
+            </div>
+            <!-- End of slider show -->
 
-      <!-- Section: About -->
-      <div id="about">
+            <!-- Control -->
+            <a href="#demo-slider" class="carousel-control-prev" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a href="#demo-slider" class="carousel-control-next" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+          </div>
+
+            <!-- End of carousel -->
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- End of header -->
+
+
+  <!-- About me -->
+  <section id="about">
+      <div class="container-fluid py-3">
+  
+         <!-- Title -->
+         <div class="row title ">
+            <div class="col text-center">
+              <h1 class="text-uppercase">about me</h1>
+              <h3 class="text-capitalize">denis Rodriguez-Ramos</h3>
+               <a href="mailto:ventolucci@hotmail.com">ventolucci@gmail.com</a> 
+              <h4>(760) 285-8532</h4>
+              <a href="#" class="mb-0"><i class="far fa-check-square"></i></a>
+              <div class="title-underline"></div>
+            </div>
+          </div>
+          <!-- End title -->
+  
+          <div class="row py-5">
+              <div class="col-ms-6 col-lg-4 value text-center my-3">
+                <a href="" data-toggle="modal" data-target="#eat">
+                    <span class="value-icon"
+                    ><i class="fas fa-utensils fa-fw" ></i
+                  ></span>
+                  <span class="value-number">1</span>
+                </a>
+                <h1 class="my-2 text-uppercase">eat</h1>
+              </div>
+              <div class="col-ms-6 col-lg-4 value text-center my-3">
+                <a href="" data-toggle="modal" data-target="#code">
+                    <span class="value-icon"><i class="fas fa-code fa-fw"></i></span>
+                    <span class="value-number">2</span>
+                </a>
+                <h1 class="my-2 text-uppercase">code</h1>
+              </div>
+              <div class="col-ms-6 col-lg-4 value text-center my-3 mx-auto">
+                <a href="" data-toggle="modal" data-target="#sleep">
+                    <span class="value-icon"><i class="fas fa-bed fa-fw"></i></span>
+                    <span class="value-number">3</span>
+                </a>
+                <h1 class="my-2 text-uppercase">sleep</h1>
+              </div>
+            </div>
+  
+        <div class="row about-area py-5">
+          <div class="container text-center col-10 col-sm-8 mx-auto py-5">
+            <img
+                        src="img/xox.webp"
+                        alt="people"
+                        class="img-fluid rounded-circle"
+                        width="150"
+                      />
+                      <div class="customer-text">
+                        <h1 class="text-capitalize my-2">Denis Rodriguez-Ramos</h1>
+                        <h4 class="text-capitalize">about me</h4>
+                        <p class="lead">
+                          <span><i class="fas fa-quote-left mr-2"></i></span>
+                          Denis, who works as a product recall specialist for an unnamed car company. Because of the stress of his job and the jet lag brought upon by frequent business trips, he begins to suffer from recurring insomnia. When he seeks treatment, his doctor advises him to start coding to "see what real suffering is like". He finds that coding the problems of others alleviates his insomnia. Denis unique treatment works until he meets Marla Singer, another "tourist" who does coding. The possibly disturbed Marla reminds the Denis that he is a faker who does not belong there. He begins to hate Marla for keeping him from coding, and, therefore, from sleeping. After a confrontation, the two agree to code separate  to avoid each other. The truce is uneasy, and the Denis insomnia returns.
+                       
+                        </p>
+                        <a
+                        href="img/denisresume.pdf"
+                        class="btn btn-lg d-block w-75 text-uppercase mb-5 mx-auto"
+                        download
+                        >download resume</a>
+                        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End about me -->
+
+  <!-- Skills -->
+    <!-- Skills section -->
+    <section id="skills" class="py-5">
+      <div class="container">
+        <!-- Title -->
+        <div class="row title mb-5">
+          <div class="col text-center">
+            <h1 class="text-uppercase">my skills</h1>
+            <h3 class="text-capitalize">Lorem ipsum dolor sit amet.</h3>
+            <a href="#skills" class="mb-0"><i class="far fa-check-square"></i></a>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <!-- End title -->
+
         <div class="row">
-          <div class="col s12">
-            <div class="card white-text">
-              <div class="card-stacked">
-                <div class="card-content">
-                  <span class="card-title right">Carlos Rodriguez Family </span>
+          <!-- Item -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-html5"></i></span>
+              </div>
+
+              <div class="col-6">
+                <div class="text-uppercase px-4">html5</div>
+                <div  class="text-muted skills-text">
+                  <p>Advanced knowledge of html</p>
+                </div>
+                  
+              </div>
+            </div>
+          </div>
+          <!-- End item -->
+          <!-- Item 2 -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-css3"></i></span>
+              </div>
+
+              <div class="col-6">
+                <div class="text-uppercase px-4">css</div>
+                <ul class="text-muted skills-text">
+                  <li>Bootstrap</li>
+                  <li>Materializecss</li>
+                  <li>Skeletoncss</li>
+                  <li>Animate.css</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End item -->
+          <!-- Item 3 -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-js"></i></span>
+              </div>
+
+              <div class="col-6">
+                <div class="text-uppercase px-4">JavaScript</div>
+                <ul class="text-muted skills-text">
+                  <li>Node.js</li>
+                  <li>jQuery</li>
+                  <li>React</li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End item -->
+          <!-- Item 4 -->
+          <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fas fa-database"></i></span>
+              </div>
+
+              <div class="col-6">
+                <div class="text-uppercase px-4">database</div>
+                <ul class="text-muted skills-text">
+                  <li>MySQL</li>
+                  <li>MongoDB</li>
+                  <li>Firebase</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End item -->
+           <!-- Item 5 -->
+           <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-php"></i></span>
+              </div>
+
+              <div class="col-6">
+                <div class="text-uppercase px-4">PHP</div>
+                  <div class="textpmuted skills-text">
+                    <p>Some knowledge of PHP</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- End item -->
+           <!-- Item 6 -->
+           <div class="col-lg-6 my-5">
+            <div class="row">
+              <div class="col-6 d-flex align-items-center skills-icon">
+                <span><i class="fab fa-wordpress"></i></span>
+              </div>
+
+              <div class="col-6">
+                <div class="text-uppercase px-4">wordpress</div>
+                <ul class="text-muted skills-text">
+                  <li>WooComerce</li>
+                  <li>Plugins</li>
+                  <li>Themes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End item -->
+        </div>
+      </div>
+    </section>
+    <!-- End skills section -->
+
+
+    <!-- About me -->
+    <section id="about" class="pb-5">
+     
+
+      <!-- About my bio -->
+      <div class="container my-5">
+        
+
+        <div class="row">
+          <div
+            class="col-lg-12 col-md-6 about-progress mb-5 d-flex flex-column justify-content-center"
+          >
+            <div class="progress-bars">
+              <div class="bar my-3">
+                <h5
+                  class="text-light text-uppercase d-flex justify-content-between"
+                >
+                  html
+                  <span>90%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width:90%"
+                  >
+                    90%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bars">
+              <div class="bar my-3">
+                <h5
+                  class="text-light text-uppercase d-flex justify-content-between"
+                >
+                  css
+                  <span>90%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width:90%"
+                  >
+                    90%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bars">
+              <div class="bar my-3">
+                <h5
+                  class="text-light text-uppercase d-flex justify-content-between"
+                >
+                  JavaScript
+                  <span>80%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width:80%"
+                  >
+                    80%
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bars">
+              <div class="bar my-3">
+                <h5
+                  class="text-light text-uppercase d-flex justify-content-between"
+                >
+                  react
+                  <span>80%</span>
+                </h5>
+                <div class="progress bg-light">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width:80%"
+                  >
+                    80%
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </header>
-
-    <!-- Section: projects -->
-    <section class="section  scrollspy silver center" id="projects">
-      <h3>My Family</h3>
-      <div class="section-projects">
-        <div class="card mom">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/mom.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Mother <i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Ana Gloria Ramos <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 70</li>
-              <li>Dob: May 27, 1948</li>
-            </ul>
-            <p>
-              My mom she doesn't work she just stay home and take care of
-              everyone
-            </p>
-          </div>
-        </div>
-        <div class="card sister">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/monica.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Sister <i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Monica Rodriguez <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 45</li>
-              <li>Dob: Sep 10, 1973</li>
-            </ul>
-            <p>
-              My sister have a insurance office and she is the mother of 3 kids
-              name: Carlos, Diego and Lucas. She just got marry last november to
-              some guy name Chamba.
-            </p>
-          </div>
-        </div>
-        <div class="card brother">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/gerardo.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Brother <i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Gerardo Rodriguez <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 40</li>
-              <li>Dob: April 2, 1978</li>
-            </ul>
-            <p>
-              My brother works at the cable company and he have a son in El
-              Salvador name Gerardo Jr.
-            </p>
-          </div>
-        </div>
-        <div class="card brother">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/denis.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Brother <i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Denis Rodriguez <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 36</li>
-              <li>Dob: Octuber, 1982</li>
-            </ul>
-            <p>
-              My brother is a web developer and he is single and ready to mingle
-              he doesnt have kids and he is looking for the right girls, he have
-              a good heart.
-            </p>
-          </div>
-        </div>
-        <div class="card nephew">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/titi.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Nephew One<i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Carlos Alfaro <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 25</li>
-              <li>Dob: julio 23, 1993</li>
-            </ul>
-            <p>
-              My nephew is the first son of monica, he is a financial asesor and
-              works for a bank
-            </p>
-          </div>
-        </div>
-        <div class="card nephew">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/diego.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Nephew Two<i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Diego Alfaro <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 24</li>
-              <li>Dob: December 27, 1994</li>
-            </ul>
-            <p>
-              My nephew is the second son of monica with his first husband, he
-              lives in los angeles and work for micheal costello.
-            </p>
-          </div>
-        </div>
-        <div class="card nephew">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/lucas-1.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Nephew Three<i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Lucas Rodriguez <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 12</li>
-              <li>Dob: Julio 7, 2007</li>
-            </ul>
-            <p>
-              My nephew number 3 is the 3th son of monica i dont know much about
-              his dad, he is in middle school.
-            </p>
-          </div>
-        </div>
-        <div class="card nephew">
-          <div class="card-image waves-effect waves-darker waves-block">
-            <img class="activator" src="img/gerardoJr.jpg" />
-          </div>
-          <div class="card-content">
-            <span class="card-title activator"
-              >Nephew Four<i class="material-icons">more_vert</i>
-            </span>
-            <p>
-              <!-- add activator to anything -->
-              <a href="#!" class="activator">Read More</a>
-            </p>
-          </div>
-          <!-- inside of reveal -->
-          <div class="card-reveal">
-            <span class="card-title"
-              >Gerardo JR Rodriguez <i class="material-icons">close</i>
-            </span>
-            <ul>
-              <li>Age: 21</li>
-              <li>Dob: Feb 12, 1997</li>
-            </ul>
-            <p>
-              He is my nephew that lives in el salvador he is the son of my
-              brother and his first wife. he is in the university and his mom
-              name is chana.
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
+    <!-- End about me -->
 
-    <!-- Footer -->
 
-    <footer class="page-footer">
-      <div class="footer-copyright">
-        <div class="container white-text">
-          Carlos Rodriguez © <span id="year"></span> Copyright
-          <a class="white-text text-lighten-4 right" href="#!">elDenis-Media</a>
+    <!--  -->
+
+    <!-- Projects -->
+    <section id="projects" class="py-5">
+        
+          <!-- Title -->
+          <div class="row title mb-5 project-title">
+            <div class="col text-center">
+              <h1 class="text-uppercase">projects</h1>
+              <h3 class="text-capitalize">
+                some project made by
+              </h3>
+              <a href="#" class="mb-0"><i class="fas fa-camera"></i></a>
+              <div class="title-underline"></div>
+            </div>
+          </div>
+          <!-- End title -->
+          <div class="container">
+          <!-- Button Group -->
+          <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              <div
+                class="btn-group btn-group-lg mb-5 button-group filter-button-group"
+                role="group"
+              >
+                <button class="btn text-uppercase" type="button" data-filter="*">
+                  all
+                </button>
+                <button
+                class="btn text-uppercase"
+                type="button"
+                data-filter=".html"
+              >
+                html5/css
+              </button>
+              
+                <button
+                  class="btn text-uppercase"
+                  type="button"
+                  data-filter=".js"
+                >
+                  vanilla js
+                </button>
+               
+                <button
+                  class="btn text-uppercase"
+                  type="button"
+                  data-filter=".jQuery"
+                >
+                  jQuery
+                </button>
+                <button
+                  class="btn text-uppercase"
+                  type="button"
+                  data-filter=".react"
+                >
+                  React
+                </button>
+             
+              </div>
+            </div>
+          </div>
+          <!-- End Button group -->
+  
+          <!-- Image row -->
+          <div class="row grid projects">
+            <!-- Projext -->
+            <div class="col-sm-6 col-md-4 my-3 js">
+              <article class="img-container">
+                <img
+                  src="img/vanilla.jpeg"
+                  alt="coffee1"
+                  class="img-fluid roundred project-image"
+                />
+                <a href="#" class="search-link1"><i class="fas fa-search"></i></a>
+                <a href="#" class="search-link2"><i class="fab fa-github"></i></a>
+                <h1 class="text-center project-text px-3">vanilla.js</h1>
+              </article>
+            </div>
+            <!-- End of project -->
+
+            <!-- Projext -->
+            <div class="col-sm-6 col-md-4 my-3 jQuery">
+              <article class="img-container">
+                <img
+                  src="img/concert.jpeg"
+                  alt="concert"
+                  class="img-fluid roundred project-image"
+                />
+                <a href="https://ventolucci.github.io/GIPHY-IPA/" target="_black" class="search-link1"><i class="fas fa-search"></i></a>
+                <a href="https://github.com/ventolucci/GIPHY-IPA" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                <h1 class="text-center project-text px-3">Giphy-IPA</h1>
+              </article>
+            </div>
+            <!-- End of project -->
+
+            <!-- Project -->
+            <div class="col-sm-6 col-md-4 my-3 react">
+              <article class="img-container">
+                <img
+                  src="img/prison.jpeg"
+                  alt="coffee1"
+                  class="img-fluid roundred project-image"
+                />
+                <a href="https://ventolucci.github.io/ClickyGame/" target="_black" class="search-link1"><i class="fas fa-search"></i></a>
+                <a href="https://github.com/ventolucci/ClickyGame" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                <h1 class="text-center project-text px-3">Clicky-Game</h1>
+              </article>
+            </div>
+            <!-- End of project -->
+
+            <!-- Projext -->
+            <div class="col-sm-6 col-md-4 my-3 react">
+              <article class="img-container">
+                <img
+                  src="img/burger.jpeg"
+                  alt="coffee1"
+                  class="img-fluid roundred project-image"
+                />
+                <a href="https://tranquil-river-25780.herokuapp.com/" class="search-link1" target="_black"><i class="fas fa-search"></i></a>
+                <a href="https://github.com/ventolucci/burger" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                <h1 class="text-center project-text">Eat the burger</h1>
+              </article>
+            </div>
+            <!-- End of project -->
+
+             <!-- Project -->
+             <div class="col-sm-6 col-md-4 my-3 js">
+              <article class="img-container">
+                <img
+                  src="img/github.jpeg"
+                  alt="coffee1"
+                  class="img-fluid roundred project-image"
+                />
+                <a href="https://ventolucci.github.io/githubFinder/" target="_black" class="search-link1"><i class="fas fa-search"></i></a>
+                <a href="https://github.com/ventolucci/githubFinder" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                <h1 class="text-center project-text px-3">githubFinder</h1>
+              </article>
+            </div>
+            <!-- End of project -->
+
+              <!-- Project -->
+              <div class="col-sm-6 col-md-4 my-3 html/css">
+                <article class="img-container">
+                  <img
+                    src="img/github.jpeg"
+                    alt="coffee1"
+                    class="img-fluid roundred project-image"
+                  />
+                  <a href="https://ventolucci.github.io/githubFinder/" target="_black" class="search-link1"><i class="fas fa-search"></i></a>
+                  <a href="https://github.com/ventolucci/githubFinder" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                  <h1 class="text-center project-text px-3">githubFinder</h1>
+                </article>
+              </div>
+              <!-- End of project -->
+
+               <!-- Projext -->
+            <div class="col-sm-6 col-md-4 my-3 mysql">
+              <article class="img-container">
+                <img
+                  src="img/burger.jpeg"
+                  alt="coffee1"
+                  class="img-fluid roundred project-image"
+                />
+                <a href="https://tranquil-river-25780.herokuapp.com/" class="search-link1" target="_black"><i class="fas fa-search"></i></a>
+                <a href="https://github.com/ventolucci/burger" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                <h1 class="text-center project-text">Eat the burger</h1>
+              </article>
+            </div>
+            <!-- End of project -->
+
+             <!-- Project -->
+             <div class="col-sm-6 col-md-4 my-3 js">
+              <article class="img-container">
+                <img
+                  src="img/github.jpeg"
+                  alt="coffee1"
+                  class="img-fluid roundred project-image"
+                />
+                <a href="https://ventolucci.github.io/githubFinder/" target="_black" class="search-link1"><i class="fas fa-search"></i></a>
+                <a href="https://github.com/ventolucci/githubFinder" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                <h1 class="text-center project-text px-3">githubFinder</h1>
+              </article>
+            </div>
+            <!-- End of project -->
+
+              <!-- Project -->
+              <div class="col-sm-6 col-md-4 my-3 html/css">
+                <article class="img-container">
+                  <img
+                    src="img/github.jpeg"
+                    alt="coffee1"
+                    class="img-fluid roundred project-image"
+                  />
+                  <a href="https://ventolucci.github.io/githubFinder/" target="_black" class="search-link1"><i class="fas fa-search"></i></a>
+                  <a href="https://github.com/ventolucci/githubFinder" target="_black" class="search-link2"><i class="fab fa-github"></i></a>
+                  <h1 class="text-center project-text px-3">githubFinder</h1>
+                </article>
+              </div>
+              <!-- End of project -->
+
+            
+         
+           
+           
+           
+
+          </div>
+  
+          <!-- End of image row -->
+        </div>
+      </section>
+  
+      <!-- End projects -->
+
+
+    <!-- Current project -->
+    <section id="current-project" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 p-5 about-text text-center align-self-center">
+              <h2 class="text-uppercase">adobe creative cloud</h2>
+              <p class="lead text-light">
+               This are some of my designing with adobe creative cloud
+              </p>
+              <a
+                href="#"
+                class="btn btn-lg d-block w-75 mx-auto text-uppercase mb-5"
+                data-toggle="modal" data-target="#photoshop"
+                >more of my photoshop</a
+              >
+            </div>
+            <div class="col-md-6 current-project-photo my-5">
+              <img
+                src="img/front.png"
+                alt="font"
+                class="current-project current-project-1 img-thumbnail"
+              />
+              <img
+                src="img/4.png"
+                alt="punk"
+                class="current-project current-project-2 img-thumbnail"
+              />
+              <img
+                src="img/Maarcie shields.png"
+                alt="concert"
+                class="current-project current-project-3 img-thumbnail"
+              />
+              <img
+                src="img/1.png"
+                alt="rock"
+                class="current-project current-project-4 img-thumbnail"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of current projects -->
+
+      <br><br><br><br>
+              <!-- Contact section -->
+    <section id="contact" class="pt-5">
+        <div class="container pt-5">
+          <div class="row height-80 aling-baseline">
+            <div class="col-lg-6 col sm-10 mx-auto my-3">
+              <div class="card text-center">
+                <div class="card-header text-center text-uppercase">
+                  <h1 class="text-uppercase">contact form</h1>
+                </div>
+                <div class="card-body">
+                  <form>
+                    <div class="input-group my-3">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </div>
+                      <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Your Name Here...">
+                    </div>
+                    <div class="input-group my-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="fas fa-phone"></i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Your Phone Here...">
+                      </div>
+                      <div class="input-group my-3">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="fas fa-envelope"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Your Email Here...">
+                        </div>
+                        <div class="input-group my-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                <i class="fas fa-users"></i>
+                              </span>
+                            </div>
+                            <input type="text" class="form-control form-control-lg text-capitalize" placeholder="Your Username Here...">
+                          </div>
+                        <button type="submit" class="btn btn-lg btn-block text-uppercase contact-btn"><i class="far fa-hand-point-right mr-2"></i>click here</button>
+                        
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col d-none d-lg-block text-center mb-5 align-self-center">
+              <img src="img/guy.webp" alt="me" class="img-fluid  me">
+            </div>
+  
+          </div>
+        </div>
+      </section>
+      <!-- End of contact section -->
+
+
+      <!-- Footer -->
+    <footer class="container-fluid py-2 px-3">
+      <div class="row">
+        <div class="col d-flex justify-content-between aling-items-baseline">
+          <div class="footer-icons">
+            
+            
+            <a href="https://www.linkedin.com/in/denis-rodriguez-ramos-5742b815b/" target="_blank" class="mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ventolucci" target="_blank" class="mx-2"><i class="fab fa-github"></i></a>
+
+          </div>
+          <h5 class="text-capitalize py-2">&copy; <span id="year"></span> copyright : elDenisRo</h5>
         </div>
       </div>
     </footer>
+    <!-- End of footer -->
 
-    <!-- Import jQuery before materialize.js -->
+
+
+
+
+
+     <!-- Modal -->
+     <div class="modal fade" id="eat" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="model-header">
+              <h5 class="modal-title text-capitalize">
+                Denis Eating
+                <button type="button" class="close p-2" data-dismiss="modal">
+                  <span>&times;</span>
+                </button>
+              </h5>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="embed-responsive embed-responsive-16by9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q29PPau2FCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="code" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="model-header">
+                <h5 class="modal-title text-capitalize">
+                  Denis Coding
+                  <button type="button" class="close p-2" data-dismiss="modal">
+                    <span>&times;</span>
+                  </button>
+                </h5>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZpjeGHUimIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              <!-- Modal Footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="sleep" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="model-header">
+                  <h5 class="modal-title text-capitalize">
+                    Denis Sleeping
+                    <button type="button" class="close p-2" data-dismiss="modal">
+                      <span>&times;</span>
+                    </button>
+                  </h5>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ei-4mPTsQGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="photoshop" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="model-header">
+                  <h5 class="modal-title text-capitalize">
+                    Some of my work with adobe cloud
+                    <button type="button" class="close p-2" data-dismiss="modal">
+                      <span>&times;</span>
+                    </button>
+                  </h5>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body popup-gallery">
+                 
+                    <a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" title="The Cleaner"><img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="75" height="75"></a>
+                    <a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title="Winter Dance"><img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="75" height="75"></a>
+                    <a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title="The Uninvited Guest"><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="75" height="75"></a>
+                    <a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" title="Oh no, not again!"><img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" width="75" height="75"></a>
+                    <a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" title="Swan Lake"><img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" width="75" height="75"></a>
+                    <a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" title="The Shake"><img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" width="75" height="75"></a>
+                    <a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" title="Who's that, mommy?"><img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" width="75" height="75"></a>
+                  
+                </div>
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          
+
+  
+
+  
+  
+
+
+    
+
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
     ></script>
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="js/chart.js"></script>
-    <script>
-      $(document).ready(function() {
-        //Init Side Nav
-        $('.button-collapse').sideNav();
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
 
-        //Init Scrollspy
-        $('.scrollspy').scrollSpy();
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 
-        // Init Year
-        $('#year').text(new Date().getFullYear());
-      });
-    </script>
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <!-- Images loaded -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <!-- Isotope cdn -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
